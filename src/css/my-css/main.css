@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--light-black);
+    @media (max-width: 1199px) {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}

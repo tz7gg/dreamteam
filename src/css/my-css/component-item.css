@@ -1,0 +1,119 @@
+.component {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    &__title {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .devider {
+        height: 2px;
+        background-color: var(--gray);
+        width: 100%;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    & .typography {
+        padding-top: 16px;
+        padding-left: 24px;
+    }
+    .h2--white {
+        background-color: var(--black);
+    }
+    .banner__content .h2--white {
+        background-color: unset;
+    }
+    & .btn {
+        margin-right: 16px;
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+    .input {
+        padding-bottom: 24px;
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+    .actions {
+        display: flex;
+        flex-wrap: wrap;
+        @media (max-width: 1199px) {
+            gap: 15px;
+        }
+    }
+    .actions {
+        .nav,
+        .like,
+        .close {
+            margin-right: 16px;
+        }
+    }
+    .checkbox {
+        margin-bottom: 16px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .cards {
+        display: flex;
+    }
+    .swiper {
+        user-select: none;
+        @media (max-width: 639px) {
+            margin-right: -20px;
+        }
+        .swiper-slide {
+            width: 313px;
+            @media (max-width: 639px) {
+                width: calc(100vw * 0.7093333);
+            }
+        }
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 336px;
+        }
+        .nav_wrap {
+            padding-top: 32px;
+            display: flex;
+            justify-content: center;
+        }
+        .prev,
+        .next {
+            display: inline-block;
+        }
+        .prev {
+            margin-right: 16px;
+        }
+        .next {
+            margin-left: 32px;
+        }
+    }
+    .swiper1 {
+        user-select: none;
+        @media (max-width: 639px) {
+            margin-right: -20px;
+        }
+        .swiper-slide {
+            width: 373px;
+            @media (max-width: 639px) {
+                width: calc(100vw * 0.7093333);
+            }
+        }
+        .nav_wrap {
+            padding-top: 32px;
+            display: flex;
+            justify-content: center;
+        }
+        .prev,
+        .next {
+            display: inline-block;
+        }
+        .prev {
+            margin-right: 16px;
+        }
+        .next {
+            margin-left: 32px;
+        }
+    }
+}

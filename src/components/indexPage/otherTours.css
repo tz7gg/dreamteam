@@ -1,0 +1,40 @@
+.other-tours {
+    padding-bottom: 64px;
+    padding-top: 64px;
+    &__title {
+        padding-bottom: 64px;
+        @media (max-width: 1199px) {
+            padding-bottom: 40px;
+        }
+    }
+    &__slider {
+        user-select: none;
+        @media (max-width: 639px) {
+            margin-right: -20px;
+        }
+        .swiper-slide {
+            width: 373px;
+            @media (max-width: 639px) {
+                width: calc(100vw * 0.7093333);
+            }
+        }
+        .nav_wrap {
+            padding-top: 32px;
+            display: flex;
+            justify-content: center;
+            @media (max-width: 1199px) {
+                padding-top: 24px;
+            }
+        }
+        .prev,
+        .next {
+            display: inline-block;
+        }
+        .prev {
+            margin-right: 16px;
+        }
+        .next {
+            margin-left: 32px;
+        }
+    }
+}

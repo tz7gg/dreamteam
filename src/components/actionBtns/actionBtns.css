@@ -1,0 +1,109 @@
+.nav {
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+    &--right {
+        transform: rotate(180deg);
+    }
+    & circle,
+    path {
+        transition: all 0.1s ease-in-out;
+    }
+    &:hover {
+        circle {
+            fill: var(--red);
+            stroke: var(--red);
+        }
+    }
+    &.active {
+        circle {
+            stroke: var(--red);
+        }
+        path {
+            stroke: var(--red);
+        }
+        &:hover {
+            path {
+                stroke: var(--white);
+            }
+        }
+    }
+    &.prev,
+    &.next {
+        circle {
+            stroke: var(--red);
+        }
+        path {
+            stroke: var(--red);
+        }
+        &:hover {
+            path {
+                stroke: var(--white);
+            }
+        }
+        &.swiper-button-disabled {
+            circle {
+                stroke: var(--gray);
+            }
+            path {
+                stroke: var(--gray);
+            }
+        }
+    }
+}
+
+.like {
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+    & circle,
+    path {
+        transition: all 0.1s ease-in-out;
+    }
+    &:hover {
+        circle {
+            fill: var(--red);
+            stroke: var(--red);
+        }
+        path {
+            stroke: var(--white);
+        }
+    }
+    &.active {
+        path {
+            stroke: var(--red);
+            fill: var(--red);
+        }
+        &:hover {
+            path {
+                stroke: var(--white);
+            }
+        }
+    }
+}
+
+.close {
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+    & circle,
+    path {
+        transition: all 0.1s ease-in-out;
+    }
+    &:hover {
+        circle {
+            stroke: var(--blue);
+        }
+        path {
+            stroke: var(--blue);
+        }
+    }
+    &.active {
+        circle {
+            fill: var(--blue);
+        }
+        path {
+            stroke: var(--white);
+        }
+    }
+}

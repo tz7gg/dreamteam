@@ -1,0 +1,21 @@
+.textarea {
+    & textarea {
+        width: 100%;
+        padding: 21px 24px;
+        outline: none;
+        background: var(--white);
+        border: 1px solid var(--gray);
+        color: var(--black);
+        resize: none;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            border-color: var(--blue);
+        }
+        &:focus {
+            border-color: var(--blue);
+        }
+        &::placeholder {
+            color: var(--light-gray);
+        }
+    }
+}

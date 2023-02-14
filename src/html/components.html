@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="listcription" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>test</title>
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9.0.5/swiper-bundle.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="component container">
+        <div class="component__title h2">Banner</div>
+        <div class="component__body">
+            <div class="banner container">
+                <img src="images/banner.jpg" class="banner__img" />
+            </div>
+        </div>
+    </div>
+
+    <div class="component container">
+        <div class="component__title h2">Hero with content</div>
+        <div class="component__body">
+            <div class="banner">
+                <img src="images/test.jpg" class="banner__img" />
+                <div class="banner__content content">
+                    <h2 class="h2 h2--white">Some Content</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="component container content">
+        <div class="component__title h2">Typography</div>
+        <div class="component__body typography">
+            <div class="devider"></div>
+            <h2 class="h2">Heading level 2</h2>
+            <div class="devider"></div>
+            <h2 class="h2 h2--white">Heading level 2</h2>
+            <div class="devider"></div>
+            <h3 class="h3">Heading level 3</h3>
+            <div class="devider"></div>
+            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto saepe itaque rerum error modi. Obcaecati, dolorum aperiam, doloribus nobis corporis recusandae, eveniet magnam vitae odio omnis repudiandae repellat ea ratione.</p>
+            <div class="devider"></div>
+            <label for="">Label</label>
+            <div class="devider"></div>
+        </div>
+    </div>
+
+    <div class="content container">
+        <div class="container">
+            <div class="component">
+                <div class="component__title h2">Buttons</div>
+                <div class="component__body">
+                    <button class="btn">Button</button>
+                    <button class="btn btn--small">Default</button>
+                    <button class="btn btn--small active">active</button>
+                </div>
+            </div>
+
+            <div class="component">
+                <div class="component__title h2">Buttons group (one is chosen)</div>
+                <div class="component__body  btns-group">
+                    <button class="btn btn--small active">Default</button>
+                    <button class="btn btn--small">Default</button>
+                    <button class="btn btn--small">Default</button>
+                    <button class="btn btn--small">Default</button>
+                </div>
+            </div>
+
+            <div class="component">
+                <div class="component__title h2">Textarea</div>
+                <div class="component__body">
+                    <div class="textarea">
+                        <label for="textarea">Describe your question</label>
+                        <textarea name="textarea" cols="30" rows="4" placeholder="Placeholder"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component">
+                <div class="component__title h2">Input</div>
+                <div class="component__body">
+                    <div class="input">
+                        <label for="input">Default</label>
+                        <div class="input__wrap">
+                            <input type="text" name="input" placeholder="Placeholder">
+                            <div src="" class="input__wrap__icon"></div>
+                        </div>
+                    </div>
+                    <div class="input success">
+                        <label for="input">Success</label>
+                        <div class="input__wrap">
+                            <input type="text" name="input" placeholder="Placeholder" value="User text">
+                            <div src="" class="input__wrap__icon"></div>
+                        </div>
+                    </div>
+                    <div class="input error">
+                        <label for="input">Error</label>
+                        <div class="input__wrap">
+                            <input type="text" name="input" placeholder="Placeholder" value="User text">
+                            <div src="" class="input__wrap__icon"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component">
+                <div class="component__title h2">Select</div>
+                <div class="component__body">
+                    <div class="select">
+                        <label>Default</label>
+                        <div class="select__wrap">
+                            <div class="select__wrap__select">
+                                <div class="select__wrap__select__text">Chose</div>
+                                <div class="select__wrap__icon"></div>
+                            </div>
+                            <div class="select__wrap__options">
+                                <div class="option">Walking in Old Tallinn</div>
+                                <div class="option">St. Isaac's Cathedral</div>
+                                <div class="option">The Bridge of Peace</div>
+                                <div class="option">El Caminito del Rey</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component">
+                <div class="component__title h2">Checkbox</div>
+                <div class="component__body">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox">
+                        <label for="checkbox"><span>Даю согласие на обработку</span></label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" checked>
+                        <label for="checkbox"><span>Даю согласие на обработку</span></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component">
+                <div class="component__title h2">Action Buttons</div>
+                <div class="component__body">
+                    <div class="actions">
+                        <div class="nav">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="19.5" stroke="#EAEAEA"/>
+                            <path d="M23 26L17 20L23 14" stroke="#EAEAEA" stroke-linecap="round"/>
+                        </svg>
+                        </div>
+                        <div class="nav nav--right">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="19.5" stroke="#EAEAEA" fill="#ffffff"/>
+                            <path d="M23 26L17 20L23 14" stroke="#EAEAEA" stroke-linecap="round"/>
+                        </svg>
+                        </div>
+                        <div class="nav active">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="19.5" stroke="#EAEAEA"/>
+                            <path d="M23 26L17 20L23 14" stroke="#EAEAEA" stroke-linecap="round"/>
+                        </svg>
+                        </div>
+                        <div class="nav nav--right active">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="19.5" stroke="#EAEAEA"/>
+                            <path d="M23 26L17 20L23 14" stroke="#EAEAEA" stroke-linecap="round"/>
+                        </svg>
+                        </div>
+
+                        <div class="like">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="20" transform="rotate(-90 20 20)" fill="white"/>
+                            <path d="M10 17.2648C10 23.1426 16 28.0407 20 30C24 28.0407 30 23.1426 30 17.2648C30 9.42772 20 8.94676 20 15.8042C20 8.94675 10 9.42772 10 17.2648Z" stroke="#E7717D"/>
+                        </svg>
+                        </div>
+                        <div class="like active">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="20" transform="rotate(-90 20 20)" fill="white"/>
+                            <path d="M10 17.2648C10 23.1426 16 28.0407 20 30C24 28.0407 30 23.1426 30 17.2648C30 9.42772 20 8.94676 20 15.8042C20 8.94675 10 9.42772 10 17.2648Z" stroke="#E7717D"/>
+                        </svg>
+                        </div>
+                        <div class="close">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="19.5" transform="rotate(90 20 20)" stroke="#EAEAEA"/>
+                            <path d="M27 13L13 27M13 13L27 27" stroke="#EAEAEA" stroke-linecap="round"/>
+                        </svg>
+                        </div>
+                        <div class="close active">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="19.5" transform="rotate(90 20 20)" stroke="#EAEAEA"/>
+                            <path d="M27 13L13 27M13 13L27 27" stroke="#EAEAEA" stroke-linecap="round"/>
+                        </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component">
+                <div class="component__title h2">Slider card</div>
+                <div class="component__body cards">
+                    <a href="" class="slider-card">
+                        <div class="slider-card__header">
+                            <div class="slider-card__header__icon">
+                                <div class="like">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20" cy="20" r="20" transform="rotate(-90 20 20)" fill="white"></circle>
+                                    <path d="M10 17.2648C10 23.1426 16 28.0407 20 30C24 28.0407 30 23.1426 30 17.2648C30 9.42772 20 8.94676 20 15.8042C20 8.94675 10 9.42772 10 17.2648Z" stroke="#E7717D"></path>
+                                </svg>
+                                </div>
+                            </div>
+                            <img src="images/slider-card.jpg" class="slider-card__header__img">
+                        </div>
+                        <div class="slider-card__content">
+                            <h3 class="slider-card__content__title h3">St. Isaac's Cathedral in St. Petersburg</h3>
+                            <div class="slider-card__content__des">One of the highest domed structures in the world.</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="component">
+                <div class="component__title h2">Slider with images</div>
+                <div class="component__body">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/slider.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/slider.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/test.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/slider.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/slider.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/slider.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/slider.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="nav_wrap">
+                            <div class="nav prev">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20" cy="20" r="19.5" stroke="#EAEAEA"></circle>
+                                    <path d="M23 26L17 20L23 14" stroke="#EAEAEA" stroke-linecap="round"></path>
+                                </svg>
+                            </div>
+                            <div class="nav next nav--right">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20" cy="20" r="19.5" stroke="#EAEAEA" fill="#ffffff"></circle>
+                                    <path d="M23 26L17 20L23 14" stroke="#EAEAEA" stroke-linecap="round"></path>
+                            </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component">
+                <div class="component__title h2">Slider with cards</div>
+                <div class="component__body">
+                    <div class="swiper swiper1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="" class="slider-card">
+                                    <div class="slider-card__header">
+                                        <div class="slider-card__header__icon">
+                                            <div class="like">
+                                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="20" cy="20" r="20" transform="rotate(-90 20 20)" fill="white"></circle>
+                                                <path d="M10 17.2648C10 23.1426 16 28.0407 20 30C24 28.0407 30 23.1426 30 17.2648C30 9.42772 20 8.94676 20 15.8042C20 8.94675 10 9.42772 10 17.2648Z" stroke="#E7717D"></path>
+                                            </svg>
+                                            </div>
+                                        </div>
+                                        <img src="images/slider-card.jpg" class="slider-card__header__img">
+                                    </div>
+                                    <div class="slider-card__content">
+                                        <h3 class="slider-card__content__title h3">St. Isaac's Cathedral in St. Petersburg</h3>
+                                        <div class="slider-card__content__des">One of the highest domed structures in the world.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="slider-card">
+                                    <div class="slider-card__header">
+                                        <div class="slider-card__header__icon">
+                                            <div class="like">
+                                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="20" cy="20" r="20" transform="rotate(-90 20 20)" fill="white"></circle>
+                                                <path d="M10 17.2648C10 23.1426 16 28.0407 20 30C24 28.0407 30 23.1426 30 17.2648C30 9.42772 20 8.94676 20 15.8042C20 8.94675 10 9.42772 10 17.2648Z" stroke="#E7717D"></path>
+                                            </svg>
+                                            </div>
+                                        </div>
+                                        <img src="images/test.jpg" class="slider-card__header__img">
+                                    </div>
+                                    <div class="slider-card__content">
+                                        <h3 class="slider-card__content__title h3">St. Isaac's Cathedral in St. Petersburg</h3>
+                                        <div class="slider-card__content__des">One of the highest domed structures in the world.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="slider-card">
+                                    <div class="slider-card__header">
+                                        <div class="slider-card__header__icon">
+                                            <div class="like">
+                                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="20" cy="20" r="20" transform="rotate(-90 20 20)" fill="white"></circle>
+                                                <path d="M10 17.2648C10 23.1426 16 28.0407 20 30C24 28.0407 30 23.1426 30 17.2648C30 9.42772 20 8.94676 20 15.8042C20 8.94675 10 9.42772 10 17.2648Z" stroke="#E7717D"></path>
+                                            </svg>
+                                            </div>
+                                        </div>
+                                        <img src="images/slider-card.jpg" class="slider-card__header__img">
+                                    </div>
+                                    <div class="slider-card__content">
+                                        <h3 class="slider-card__content__title h3">St. Isaac's Cathedral in St. Petersburg</h3>
+                                        <div class="slider-card__content__des">One of the highest domed structures in the world.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="slider-card">
+                                    <div class="slider-card__header">
+                                        <div class="slider-card__header__icon">
+                                            <div class="like">
+                                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="20" cy="20" r="20" transform="rotate(-90 20 20)" fill="white"></circle>
+                                                <path d="M10 17.2648C10 23.1426 16 28.0407 20 30C24 28.0407 30 23.1426 30 17.2648C30 9.42772 20 8.94676 20 15.8042C20 8.94675 10 9.42772 10 17.2648Z" stroke="#E7717D"></path>
+                                            </svg>
+                                            </div>
+                                        </div>
+                                        <img src="images/slider-card.jpg" class="slider-card__header__img">
+                                    </div>
+                                    <div class="slider-card__content">
+                                        <h3 class="slider-card__content__title h3">St. Isaac's Cathedral in St. Petersburg</h3>
+                                        <div class="slider-card__content__des">One of the highest domed structures in the world.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="slider-card">
+                                    <div class="slider-card__header">
+                                        <div class="slider-card__header__icon">
+                                            <div class="like">
+                                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="20" cy="20" r="20" transform="rotate(-90 20 20)" fill="white"></circle>
+                                                <path d="M10 17.2648C10 23.1426 16 28.0407 20 30C24 28.0407 30 23.1426 30 17.2648C30 9.42772 20 8.94676 20 15.8042C20 8.94675 10 9.42772 10 17.2648Z" stroke="#E7717D"></path>
+                                            </svg>
+                                            </div>
+                                        </div>
+                                        <img src="images/slider-card.jpg" class="slider-card__header__img">
+                                    </div>
+                                    <div class="slider-card__content">
+                                        <h3 class="slider-card__content__title h3">St. Isaac's Cathedral in St. Petersburg</h3>
+                                        <div class="slider-card__content__des">One of the highest domed structures in the world.</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="nav_wrap">
+                            <div class="nav prev">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20" cy="20" r="19.5" stroke="#EAEAEA"></circle>
+                                    <path d="M23 26L17 20L23 14" stroke="#EAEAEA" stroke-linecap="round"></path>
+                                </svg>
+                            </div>
+                            <div class="nav next nav--right">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20" cy="20" r="19.5" stroke="#EAEAEA" fill="#ffffff"></circle>
+                                    <path d="M23 26L17 20L23 14" stroke="#EAEAEA" stroke-linecap="round"></path>
+                            </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="component">
+                <div class="component__title h2">modal</div>
+                <div class="component__body">
+                    <button class="btn" data-modal-link="#modal">Click me!</button>
+                    <div class="modal" id="modal">
+                        <div class="modal__wrap">
+                            <form action="" class="form">
+                                <div class="form__close">
+                                    <div class="close">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="20" cy="20" r="19.5" transform="rotate(90 20 20)" stroke="#EAEAEA"></circle>
+                                            <path d="M27 13L13 27M13 13L27 27" stroke="#EAEAEA" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="form__title">
+                                    <h3 class="h3">Feedback</h3>
+                                </div>
+                                <div class="form__inputs">
+                                    <div class="input">
+                                        <label for="input">Your name</label>
+                                        <div class="input__wrap">
+                                            <input type="text" name="input" placeholder="Владимир Печенкин">
+                                            <div src="" class="input__wrap__icon"></div>
+                                        </div>
+                                    </div>
+                                    <div class="input">
+                                        <label for="input">You email</label>
+                                        <div class="input__wrap">
+                                            <input type="text" name="input" placeholder="miass174@mail.ru">
+                                            <div src="" class="input__wrap__icon"></div>
+                                        </div>
+                                    </div>
+                                    <div class="input">
+                                        <label for="input">You phone</label>
+                                        <div class="input__wrap">
+                                            <input type="text" name="input" placeholder="79507341788">
+                                            <div src="" class="input__wrap__icon"></div>
+                                        </div>
+                                    </div>
+                                    <div class="select">
+                                        <label>Сhoose a trip</label>
+                                        <div class="select__wrap">
+                                            <div class="select__wrap__select">
+                                                <div class="select__wrap__select__text">Chose</div>
+                                                <div class="select__wrap__icon"></div>
+                                            </div>
+                                            <div class="select__wrap__options">
+                                                <div class="option">Walking in Old Tallinn</div>
+                                                <div class="option">St. Isaac's Cathedral</div>
+                                                <div class="option">The Bridge of Peace</div>
+                                                <div class="option">El Caminito del Rey</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__group btns-group">
+                                    <button type="button" class="btn btn--small active">Reviews and suggestions</button>
+                                    <button type="button" class="btn btn--small">Question about content</button>
+                                    <button type="button" class="btn btn--small">Complaints</button>
+                                    <button type="button" class="btn btn--small">Other</button>
+                                </div>
+                                <div class="form__textarea">
+                                    <div class="textarea">
+                                        <label for="textarea">Describe your question</label>
+                                        <textarea name="textarea" cols="30" rows="4" placeholder="Placeholder"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form__footer">
+                                    <div class="checkbox">
+                                        <input type="checkbox" name="checkbox">
+                                        <label for="checkbox"><span>Даю согласие на обработку</span></label>
+                                    </div>
+                                    <button type="button" class="btn">Button</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="component">
+            <div class="component__title h2">form</div>
+            <div class="component__body">
+                <form action="" class="form">
+                    <div class="form__close">
+                        <div class="close">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="19.5" transform="rotate(90 20 20)" stroke="#EAEAEA"></circle>
+                                <path d="M27 13L13 27M13 13L27 27" stroke="#EAEAEA" stroke-linecap="round"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="form__title">
+                        <h3 class="h3">Feedback</h3>
+                    </div>
+                    <div class="form__inputs">
+                        <div class="input">
+                            <label for="input">Your name</label>
+                            <div class="input__wrap">
+                                <input type="text" name="input" placeholder="Владимир Печен">
+                                <div src="" class="input__wrap__icon"></div>
+                            </div>
+                        </div>
+                        <div class="input">
+                            <label for="input">You email</label>
+                            <div class="input__wrap">
+                                <input type="text" name="input" placeholder="miass174@mail.ru">
+                                <div src="" class="input__wrap__icon"></div>
+                            </div>
+                        </div>
+                        <div class="input">
+                            <label for="input">You phone</label>
+                            <div class="input__wrap">
+                                <input type="text" name="input" placeholder="79507341788">
+                                <div src="" class="input__wrap__icon"></div>
+                            </div>
+                        </div>
+                        <div class="select">
+                            <label>Сhoose a trip</label>
+                            <div class="select__wrap">
+                                <div class="select__wrap__select">
+                                    <div class="select__wrap__select__text">Chose</div>
+                                    <div class="select__wrap__icon"></div>
+                                </div>
+                                <div class="select__wrap__options">
+                                    <div class="option">Walking in Old Tallinn</div>
+                                    <div class="option">St. Isaac's Cathedral</div>
+                                    <div class="option">The Bridge of Peace</div>
+                                    <div class="option">El Caminito del Rey</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__group btns-group">
+                        <button type="button" class="btn btn--small active">Reviews and suggestions</button>
+                        <button type="button" class="btn btn--small">Question about content</button>
+                        <button type="button" class="btn btn--small">Complaints</button>
+                        <button type="button" class="btn btn--small">Other</button>
+                    </div>
+                    <div class="form__textarea">
+                        <div class="textarea">
+                            <label for="textarea">Describe your question</label>
+                            <textarea name="textarea" cols="30" rows="4" placeholder="Placeholder"></textarea>
+                        </div>
+                    </div>
+                    <div class="form__footer">
+                        <div class="checkbox">
+                            <input type="checkbox" name="checkbox">
+                            <label for="checkbox"><span>Даю согласие на обработку</span></label>
+                        </div>
+                        <button type="button" class="btn">Button</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js "></script>
+<script type="text/javascript " src="js/main.min.js "></script>
+
+</html>
